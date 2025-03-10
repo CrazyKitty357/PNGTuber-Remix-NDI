@@ -100,6 +100,9 @@ z_as_relative = false
 shadow_enabled = true
 shadow_color = Color(0, 0, 0, 0.92549)
 
+[node name="NDIOutput" type="NDIOutput" parent="SubViewportContainer/SubViewport"]
+name = "asdfzxcvqwer"
+
 [node name="UIHolder" type="VBoxContainer" parent="."]
 unique_name_in_owner = true
 layout_mode = 1

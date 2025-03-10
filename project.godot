@@ -17,6 +17,7 @@ config/auto_accept_quit=false
 config/quit_on_go_back=false
 config/features=PackedStringArray("4.4")
 run/flush_stdout_on_print.debug=false
+run/max_fps=60
 boot_splash/bg_color=Color(0.1118, 0.135361, 0.218212, 1)
 boot_splash/fullsize=false
 boot_splash/image="res://SplashImage.png"
@@ -139,7 +140,5 @@ locale/translations=PackedStringArray("res://Localization/RemixV1 Translations -
 
 rendering_device/driver="d3d12"
 rendering_device/driver.windows="d3d12"
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
 viewport/transparent_background=true
